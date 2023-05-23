@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <Button mnemonicParsing="false" prefHeight="57.0" prefWidth="213.0" text="Kezdés!" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </bottom>
+   <top>
+      <Label alignment="CENTER" prefHeight="69.0" prefWidth="600.0" text="Ez a program a 2.39. feladat megoldása.\nA feladat hasonló a Hanoi tornyai problémához. Itt három tornyunk lesz, amelyből kettőn piros, kék korongok vannak, a hamadik üres. Célunk, hogy a piros és a kék korongok színenként egy tornyon legyenek." BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
