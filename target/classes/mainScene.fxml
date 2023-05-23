@@ -124,11 +124,11 @@
             <Insets />
          </opaqueInsets>
       </StackPane>
-      <Button fx:id="start" layoutX="463.0" layoutY="14.0" mnemonicParsing="false" onAction="#startSolution" prefHeight="28.0" prefWidth="106.0" text="Start" textAlignment="CENTER">
+      <Button fx:id="start" layoutX="480.0" layoutY="14.0" mnemonicParsing="false" onAction="#startSolution" prefHeight="28.0" prefWidth="106.0" text="Start" textAlignment="CENTER">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Label fx:id="infoLabel" layoutX="24.0" layoutY="22.0" prefHeight="61.0" prefWidth="200.0" text="&#10;" textAlignment="CENTER" />
+      <Button fx:id="close" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitApp" prefHeight="30.0" prefWidth="106.0" text="Exit" />
    </children>
 </AnchorPane>
