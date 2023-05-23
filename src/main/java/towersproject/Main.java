@@ -1,8 +1,7 @@
 package towersproject;
 
-public class Main {
-    public static void main(String[] args) {
+import javafx.application.Application;
 
-        System.out.println();
-    }
+public class Main {
+    public static void main(String[] args) {Application.launch(TowersApplication.class, args);}
 }
