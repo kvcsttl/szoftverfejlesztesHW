@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.StackPane?>
@@ -8,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="towersproject.mainSceneController">
    <children>
       <Label layoutX="240.0" layoutY="8.0" text="2.39. feladat" textAlignment="CENTER" underline="true">
          <font>
@@ -123,5 +124,11 @@
             <Insets />
          </opaqueInsets>
       </StackPane>
+      <Button fx:id="start" layoutX="463.0" layoutY="14.0" mnemonicParsing="false" onAction="#startSolution" prefHeight="28.0" prefWidth="106.0" text="Start" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="infoLabel" layoutX="24.0" layoutY="22.0" prefHeight="61.0" prefWidth="200.0" text="&#10;" textAlignment="CENTER" />
    </children>
 </AnchorPane>
