@@ -22,4 +22,6 @@ public class mainSceneController {
         Logger.info("Exiting");
         Platform.exit();
     }
+
+
 }
