@@ -16,7 +16,7 @@
             <Font name="Times New Roman" size="24.0" />
          </font>
       </Label>
-      <StackPane layoutX="200.0" layoutY="195.0" prefHeight="200.0" prefWidth="200.0">
+      <StackPane fx:id="firstTower" layoutY="195.0" prefHeight="200.0" prefWidth="200.0">
          <children>
             <Line endX="72.0" rotate="90.0" startX="-100.0" strokeWidth="6.0">
                <StackPane.margin>
@@ -59,62 +59,51 @@
                   <Insets bottom="88.0" />
                </StackPane.margin>
             </Rectangle>
+            <Rectangle fx:id="elso" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" layoutX="100.0" layoutY="57.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
          </children>
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </StackPane>
-      <StackPane layoutX="400.0" layoutY="195.0" prefHeight="200.0" prefWidth="200.0">
-         <opaqueInsets>
-            <Insets />
-         </opaqueInsets>
+      <StackPane fx:id="secondTower" layoutX="200.0" layoutY="195.0" prefHeight="200.0" prefWidth="200.0">
          <children>
             <Line endX="72.0" rotate="90.0" startX="-100.0" strokeWidth="6.0">
                <StackPane.margin>
                   <Insets top="20.0" />
                </StackPane.margin>
             </Line>
-         </children>
-      </StackPane>
-      <StackPane layoutY="195.0" prefHeight="200.0" prefWidth="200.0">
-         <children>
-            <Line endX="72.0" rotate="90.0" startX="-100.0" strokeWidth="6.0">
-               <StackPane.margin>
-                  <Insets top="20.0" />
-               </StackPane.margin>
-            </Line>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="80.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="80.0">
                <StackPane.margin>
                   <Insets top="27.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeLineCap="ROUND" width="160.0" StackPane.alignment="BOTTOM_CENTER" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="140.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeLineCap="ROUND" width="160.0" StackPane.alignment="BOTTOM_CENTER" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="140.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="20.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="120.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="120.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="39.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="100.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="100.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="58.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
                <StackPane.margin>
                   <Insets bottom="11.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
                <StackPane.margin>
                   <Insets bottom="50.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="20.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="20.0">
                <StackPane.margin>
                   <Insets bottom="88.0" />
                </StackPane.margin>
@@ -123,6 +112,18 @@
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
+      </StackPane>
+      <StackPane fx:id="thirdTower" layoutX="400.0" layoutY="195.0" prefHeight="200.0" prefWidth="200.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Line endX="72.0" rotate="90.0" startX="-100.0" strokeWidth="6.0">
+               <StackPane.margin>
+                  <Insets top="20.0" />
+               </StackPane.margin>
+            </Line>
+         </children>
       </StackPane>
       <Button fx:id="start" layoutX="480.0" layoutY="14.0" mnemonicParsing="false" onAction="#startSolution" prefHeight="28.0" prefWidth="106.0" text="Start" textAlignment="CENTER">
          <font>
