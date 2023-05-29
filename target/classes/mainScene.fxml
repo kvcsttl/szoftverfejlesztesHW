@@ -23,43 +23,42 @@
                   <Insets top="20.0" />
                </StackPane.margin>
             </Line>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="80.0">
+            <Rectangle fx:id="k4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="80.0">
                <StackPane.margin>
                   <Insets top="27.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeLineCap="ROUND" width="160.0" StackPane.alignment="BOTTOM_CENTER" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="140.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle fx:id="k8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeLineCap="ROUND" width="160.0" StackPane.alignment="BOTTOM_CENTER" />
+            <Rectangle fx:id="p7" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="140.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="20.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="120.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle fx:id="k6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="120.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="39.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="100.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle fx:id="p5" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="100.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="58.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
+            <Rectangle fx:id="p3" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
                <StackPane.margin>
                   <Insets bottom="11.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+            <Rectangle fx:id="k2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
                <StackPane.margin>
                   <Insets bottom="50.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="20.0">
+            <Rectangle fx:id="p1" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="20.0">
                <StackPane.margin>
                   <Insets bottom="88.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle fx:id="elso" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" layoutX="100.0" layoutY="57.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
          </children>
          <opaqueInsets>
             <Insets />
@@ -72,38 +71,38 @@
                   <Insets top="20.0" />
                </StackPane.margin>
             </Line>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="80.0">
+            <Rectangle fx:id="p4" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="80.0">
                <StackPane.margin>
                   <Insets top="27.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeLineCap="ROUND" width="160.0" StackPane.alignment="BOTTOM_CENTER" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="140.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle fx:id="p8" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeLineCap="ROUND" width="160.0" StackPane.alignment="BOTTOM_CENTER" />
+            <Rectangle fx:id="k7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="140.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="20.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="120.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle fx:id="p6" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="120.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="39.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="100.0" StackPane.alignment="BOTTOM_CENTER">
+            <Rectangle fx:id="k5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="100.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="58.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
+            <Rectangle fx:id="k3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
                <StackPane.margin>
                   <Insets bottom="11.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+            <Rectangle fx:id="p2" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="19.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
                <StackPane.margin>
                   <Insets bottom="50.0" />
                </StackPane.margin>
             </Rectangle>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="20.0">
+            <Rectangle fx:id="k1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK" strokeType="INSIDE" width="20.0">
                <StackPane.margin>
                   <Insets bottom="88.0" />
                </StackPane.margin>
