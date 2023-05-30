@@ -9,7 +9,7 @@ import java.util.List;
 @EqualsAndHashCode
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Tower {
-    public static final int SIZE = 5;
+    public static final int SIZE = 8;
     private final LinkedList<Disc> discs = new LinkedList<>();
     private Tower(List<Disc> other){discs.addAll(other);}
     public static Tower empty(){return new Tower();}
